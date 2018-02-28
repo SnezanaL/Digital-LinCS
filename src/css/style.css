@@ -1,0 +1,214 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Lora', serif; */
+}
+.wrapsemibox {
+    max-width: 1123px;
+    margin: 0px auto;
+    background: #fff;
+    /* margin-top: -40px; */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    position: relative;
+    margin-bottom: -100px;
+    /* padding-bottom: 40px; */
+    /* border-bottom: medium double #ccc; */
+    padding-top: 0;
+    background-color: #f1f9f7;
+}
+/*=== TYPOGFAFY === */
+p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+a:focus, a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
+
+/*=== HEADER === */
+.main-menu {
+    width: 1123px;
+  height: 81px;
+  background-color: #ffffff;
+}
+li.nav-item {
+    padding: 5px 27px;
+}
+li.nav-item a {
+    color: #77cab1;
+    font-family: 'Open Sans', sans-serif;
+}
+a.logo {
+    /* width: 150px; */
+    /* height: 33px; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f55b2e !important;
+    padding: 3px 0px !important;
+}
+
+.hero-header {
+    background-color: #77cab1;
+    height: 772px;
+    padding: 80px 0;
+    position: relative;
+}
+.hero-content h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 68px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+img.hero-img {
+    margin: 16px 0 10px;
+}
+img.hero-img-e {
+    float: right;
+    text-align: right;
+    position: relative;
+    bottom: 100px;
+}
+.hero-content {
+    padding: 0 0px 0 60px;
+}
+.hero-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #f55b2e;
+    padding: 25px 50px;
+}
+.hero-lrn-more {
+    text-align: center;
+    position: absolute;
+    bottom: 65px;
+    left: 45%;
+}
+.hero-lrn-more a {
+    color: #ffffff;
+}
+.hero-lrn-more i.fas.fa-chevron-down {
+    font-size: 34px;
+    padding-top: 8px;
+}
+.hero-lrn-more h3 {
+    font-family: 'Lora', serif;
+}
+section.gal-right {
+    background-color: #f1f9f7;
+    padding: 80px 0;
+}
+.gal-content {
+    width: 500px;
+    height: 500px;
+    background-color: #77cab1;
+    margin-left: 15px;
+    padding: 33% 41px;   
+}
+.gal-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+img.hero-img-g {
+    padding-bottom: 25px;
+}
+section.hero-patient {
+    padding: 80px;
+    text-align: center;
+    background-color: #ffffff;
+}
+section.hero-patient h3 {
+    padding-bottom: 10px;
+}
+.get-started {
+    margin-top: 45px;
+}
+.get-started-s {
+    margin-top: 20px;
+}
+.gal-left {
+    background-color: #f1f9f7;
+    padding: 80px 0 80px 20px;
+}
+.gal-content-l {
+    width: 500px;
+    height: 500px;
+    background-color: #77cab1;
+    padding: 33% 41px;   
+}
+.gal-content-l h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.gal-con {
+    width: 230px;
+    height: 230px;
+    background-color: #fcc864;
+    margin-top: 17px;
+    padding: 53px 20px;
+}
+a.gal-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f55b2e;
+}
+.footer-menu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.footer-menu li {
+    vertical-align: middle;
+    
+}
+li.footer-cont {
+    padding-top: 15px !important;
+}
+.footer-cont p {
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 10px;
+}
+footer {
+    width: 1110px;
+    height: 60px;
+    background-color: #e4f3ef;
+    margin: auto;
+    margin-bottom: 0 !important;
+    margin-top: 100px;
+}
