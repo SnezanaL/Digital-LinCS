@@ -2,11 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     /*font-family: 'Lora', serif; */
 }
-.wrapsemibox {
+.wrapper {
+    margin: 70px auto;
+    width: 90%;
     max-width: 1123px;
-    margin: 0px auto;
-    background: #fff;
-    /* margin-top: -40px; */
+    overflow: hidden;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     z-index: 1000;
     position: relative;
@@ -15,6 +15,7 @@ body {
     /* border-bottom: medium double #ccc; */
     padding-top: 0;
     background-color: #f1f9f7;
+    box-sizing: border-box;
 }
 /*=== TYPOGFAFY === */
 p {
@@ -55,7 +56,7 @@ a.logo {
 
 .hero-header {
     background-color: #77cab1;
-    height: 772px;
+    min-height: 772px;
     padding: 80px 0;
     position: relative;
 }
