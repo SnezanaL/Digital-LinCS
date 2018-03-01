@@ -20,7 +20,7 @@ body {
 /*=== TYPOGFAFY === */
 p {
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 19px;
 }
 a:focus, a:hover {
     color: #ddd;
@@ -212,4 +212,67 @@ footer {
     margin: auto;
     margin-bottom: 0 !important;
     margin-top: 100px;
+}
+/*== ABOUT US == */
+.about-us .gal-right {
+    padding-bottom: 0;
+}
+i.far.fa-lightbulb {
+    font-size: 50px;
+}
+section.hero-patient.h-green {
+    background: #e4f3ef;
+}
+section.hero-patient.h-green-l {
+    background: #f1f9f7;
+}
+/*== HOW IT WORKS== */
+section.check-eligibility {
+    padding: 80px 18px;
+}
+.check-content {
+    padding: 10px 50px;
+    background: #ffffff;
+}
+.check-text {
+    position: relative;
+    border-bottom: 2px solid rgba(155, 155, 155, 0.3);
+    padding-bottom: 26px;
+    padding-top: 45px
+}
+.check-text h2 {
+    color: #77cab1;
+}
+.num {
+    position: absolute;
+    color: rgba(119, 202, 177, 0.31);
+    font-family: 'Lora', serif;
+    font-size: 80px;
+    font-weight: 700;
+    bottom: 40px;
+    left: -30px;
+}
+.check-text.lstch {
+    border: none;
+}
+.why-me {
+    padding: 80px 20px;
+    background-color: rgba(119, 202, 177, 0.1); 
+}
+.why-me .row {
+    padding-bottom: 80px;
+}
+.why-me .row.lstch {
+    padding-bottom: 0;
+}
+.eligib-img  {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.eligib-img img {
+    width: 100%;
+}
+.eligib-content  {
+    padding: 17% 30px;
 }
