@@ -22,6 +22,9 @@ p {
     font-family: 'Lora', serif;
     font-size: 19px;
 }
+a {
+    color: #ef4324;
+}
 a:focus, a:hover {
     color: #ddd;
     text-decoration: none;
@@ -230,9 +233,16 @@ section.hero-patient.h-green-l {
 section.check-eligibility {
     padding: 80px 18px;
 }
+.img-check{
+    position: relative;
+    width: 520px;
+    height: 500px;
+    background-size: cover;
+}
 .check-content {
     padding: 10px 50px;
     background: #ffffff;
+    margin-left: -15px !IMPORTANT;
 }
 .check-text {
     position: relative;
@@ -247,7 +257,7 @@ section.check-eligibility {
     position: absolute;
     color: rgba(119, 202, 177, 0.31);
     font-family: 'Lora', serif;
-    font-size: 80px;
+    font-size: 74px;
     font-weight: 700;
     bottom: 40px;
     left: -30px;
@@ -275,4 +285,79 @@ section.check-eligibility {
 }
 .eligib-content  {
     padding: 17% 30px;
+}
+.middle-check {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+    background-color: rgba(119, 202, 177, 0.9);
+    background-color: rgba(119, 202, 177, 0.6);
+    width: 520px;
+    height: 500px;
+  }
+  .img-check img {
+      background-size: cover;
+  }
+  .text-m {
+      padding: 30% 40px;
+  }
+  .text-m h4 {
+      color: #ffffff;
+      font-size: 32px;
+  }
+  .num-b {
+    position: absolute;
+    right: 34px;
+    top: 4%;
+    color: rgba(255, 255, 255, 0.43);
+    font-family: 'Lora', serif;
+    font-size: 288px;
+    font-weight: 700;
+    z-index: -1;
+  }
+  .get-started.serv {
+      padding: 10px 0; 
+  }
+  .check-text.services {
+      border: none;
+      vertical-align: middle;
+      padding-top: 36%;
+  }
+  .get-started.serv a {
+    padding: 20px 40px;
+}
+.middle-check.serv {
+    background-color: #77cab1;
+}
+.middle-check.serv .text-m   {
+    padding-top: 35%;
+}
+.left {
+    text-align: left;
+}
+.hero-patient h2 {
+    padding-bottom: 35px;
+}
+
+
+.providers {
+    padding-top: 55px;
+}
+.providers .check-content {
+    margin: 0px -15px 0 13px !important;
+}
+
+.sign-in .get-started {
+    margin-bottom: 45px;
+}
+.sign-in section.hero-patient.h-green {
+    background: #ffffff;
+    margin: 80px 0 0;
+}
+.center {
+    text-align: center;
 }
