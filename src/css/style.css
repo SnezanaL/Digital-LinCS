@@ -568,3 +568,117 @@ i.fas.fa-upload {
 .msf-form form .selects-1,
 .msf-form form .selects-2 { display: inline-block; margin: 0 0 20px 0; }
 
+/* === Dashboard == */
+.brand-name h4 {
+    font-size: 18px;
+    color: #77cab1;
+    padding: 5px 10px 0;
+}
+.hi-user p {
+    padding: 4px 7px 0 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dash-box {
+    border-radius: 5px;
+    background-color: #d3eee6;
+    padding: 17px 22px;
+    margin-top: 40px;
+}
+.dash-box h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 22px 0 15px;
+    font-weight: 600;
+}
+.dash-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.dash-box td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.right a {
+    text-align: right;
+}
+.dash-table {
+    width: 100%;
+}
+.dash-box-b {
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+.dash-header {
+    background-color: #d3eee6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 20px 5px;
+}
+.dash-header h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 22px 0 15px;
+    font-weight: 600;
+}
+.dash-table-b {
+    width: 100%;
+} 
+.dash-box-table {
+    padding: 20px 13px;
+}
+.dash-box-table p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.dash-box-table td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 25%;
+    padding: 10px 3px 10px;
+    border-bottom: 1px solid #f0f1f4;
+}
+.dash-box-table thead td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #9b9b9b;
+    padding-bottom: 18px;
+    border: none;
+}
+
+/* == LOG IN ==*/
+.log-in-box {
+    width: 50%;
+    height: 500px;
+    background-color: #ffffff;
+    margin: 80px 40px;
+    padding: 40px 30px;
+}
+.log-in-box h3 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height: 2.95;
+    padding-bottom: 15px;
+    color: #000000;
+}
+.log-in-box label {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #000000;
+}
+.forg-pass {
+    float: right;
+    padding: 50px 10px 20px;
+}
+.forg-pass a {
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.log-btn {
+    padding: 18px 60px;
+}
+.res-btn {
+    padding: 18px 25px;
+}
