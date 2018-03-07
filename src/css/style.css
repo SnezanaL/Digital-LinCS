@@ -410,3 +410,161 @@ section.check-eligibility {
 .sign-in .center {
     margin: 30px -15px 0;
 }
+
+/***** Multi Step Form *****/
+
+.msf-container { padding-bottom: 80px; text-align: center; }
+.msf-title {
+    margin-top: 80px;
+    padding: 45px 30px;
+    height: 121px;
+    background-color: rgba(119, 202, 177, 0.9);
+}
+.msf-title h3 { 
+    font-family: 'Lora', serif;;
+    font-size: 32px;
+    text-align: left;
+    color: #ffffff;
+ }
+.msf-title p { opacity: 0.8; }
+.form-text-1 {
+    padding: 65px 20px;
+    background-color: #e4f3ef;
+}
+.msf-un-bd {
+    background-color: #f1f9f7;
+}
+.form-border {
+    width: 181px;
+    height: 19px;
+    background-color: #fcc864;
+}
+.form-text-1 h5 {
+    color: #77cab1;
+    padding-bottom: 20px;   
+}
+fieldset {
+    width: 100%;
+}
+.form-text-1 p {
+    line-height: 1.95;
+}
+.msf-form .col-lg-6 {
+    padding: 0 !important;
+}
+.msf-form {
+    padding: 0 !important;
+}
+.step1 {
+    background-color: #ffffff; 
+}
+.step1-r {
+    background-color: #e4f3ef; 
+}
+.step1-check {
+    padding: 65px 45px;
+    text-align: left;
+}
+.step1-check h5 {
+    text-align: left;
+    padding-bottom: 30px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+}
+.custom-control-input:active~.custom-control-indicator {
+    background-color: #77cab1;
+}
+.custom-control-input:checked~.custom-control-indicator {
+    color: #fff;
+    background-color: #77cab1;
+}
+.custom-control-input:focus~.custom-control-indicator {
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #77cab1;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #77cab1;
+}
+span.custom-control-description {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+.step1 .custom-control {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: left;
+    -ms-flex-pack: start;
+    justify-content: left;
+    padding: 0px 0 15px 21px;
+}
+.msf-form form button.btn {
+    margin-top: 40px !important;
+}
+.btn-previous {
+    float: left;
+    margin-left: 50px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f55b2e;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 10px 45px;
+    border: 1px solid #f55b2e;
+}
+.btn-next {
+    float: right;
+    margin-right: 50px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #f55b2e;
+    padding: 10px 45px;
+    border: 1px solid #f55b2e;
+}
+.msf-form h4 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	line-height: 26px;
+}
+.upload-file {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f55b2e;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 10px 25px;
+    border: 1px solid #f55b2e;
+}
+i.fas.fa-upload {
+    padding-right: 7px;
+}
+.msf-form h4 .step { color: #aaa; }
+
+.msf-form form fieldset { display: none; overflow: hidden; }
+
+/* .msf-form form input[type="text"] { width: 340px; margin-left: 5px; margin-right: 5px; } */
+
+.msf-form form textarea.form-control { width: 700px; height: 160px; }
+
+/* .msf-form form select.form-control { width: 400px; margin-left: 5px; margin-right: 5px; } */
+
+.msf-form form .form-group { margin-bottom: 15px; }
+
+.msf-form form button.btn { min-width: 110px; margin-top: 15px; margin-left: 5px; margin-right: 5px; }
+
+.msf-form form p { opacity: 0.8; }
+
+.msf-form form .radio-buttons-1,
+.msf-form form .radio-buttons-2,
+.msf-form form .checkboxes-1,
+.msf-form form .checkboxes-2 { display: inline-block; margin: 0 15px 20px 15px; }
+
+.msf-form form .selects-1,
+.msf-form form .selects-2 { display: inline-block; margin: 0 0 20px 0; }
+

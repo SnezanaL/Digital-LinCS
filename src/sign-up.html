@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Digital LinCS</title>
+        <meta name="description" content="">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Modernizr -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav class="navbar navbar-toggleable-md main-menu bg-faded navbar-light">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-header">
+                        <a class="logo" href="index.html">Digital LinCS</a>
+                    </div>
+                
+                    <div class="collapse navbar-collapse justify-content-left" id="navbarSupportedContent"> 
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About Us <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="how-it-works.html">How It Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="providers.html">Providers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="get-st nav-item active">
+                                <a href="get-started.html" class="nav-link">Get Started</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="log-in.html" class="nav-link">Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>                   
+            </header>
+
+            <section class="sign-up-form">
+
+         <!-- Multi Step Form -->
+		    <div class="msf-container">
+                <div class="container-fluid">
+                    
+                    <div class="row">
+                        <div class="col-sm-12 msf-form">                           
+                            <form role="form" action="" method="post" class="">
+                            
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-sm-12 msf-title">
+                                        <h3>Step 1: Check eligibility</h3>                           
+                                    </div>                        
+                                    <div class="form-border"></div>
+                                </div>    
+                                <div class="row">
+                                    <div class="col-lg-6 step1">
+                                        <div class="step1-check">                                            
+                                            <h5>Do you have health insurance?</h5>
+                                            <div class="custom-controls-stacked">
+                                                <label class="custom-control custom-radio">
+                                                    <input id="yesHealthIns" name="radio-stacked" type="radio" class="custom-control-input">
+                                                    <span class="custom-control-indicator"></span>
+                                                    <span class="custom-control-description">Toggle this custom radio</span>
+                                                </label>
+                                                <label class="custom-control custom-radio">
+                                                    <input id="noHealthIns" name="radio-stacked" type="radio" class="custom-control-input" checked>
+                                                    <span class="custom-control-indicator"></span>
+                                                    <span class="custom-control-description">Or toggle this other custom radio</span>
+                                                </label>
+                                            </div>                                          
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="left form-text-1">
+                                            <h5>Why do we ask?</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="button" class="btn btn-previous">Back</button>
+                                        <button type="button" class="btn btn-next right">Next</button>
+                                    </div>
+                                </div>                                   
+                            </fieldset>
+
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-sm-12 msf-title">
+                                        <h3>Step 2: Upload Documents</h3>                           
+                                    </div>                        
+                                    <div class="form-border"></div>
+                                </div>    
+                                <div class="row">
+                                    <div class="col-lg-6 step1">
+                                        <div class="step1-check">                                            
+                                            <h5>Based on your responses, you need to upload:</h5>
+                                            <p>Proof of income</p>
+                                            <label class="custom-file upload-file" for="file-inc"><i class="fas fa-upload"></i>Click to upload document</label> 
+                                            <input type="file" id="file-inc" class="custom-file-input">
+                                            <p>Proof of residency</p>
+                                            <label class="custom-file upload-file" for="file-res"><i class="fas fa-upload"></i>Click to upload document</label> 
+                                            <input type="file" id="file-res" class="custom-file-input">                                                                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 step1 step1-r">
+                                        <div class="left form-text-1">
+                                            <h5>Examples of proof of income</h5>
+                                            <ul>
+                                                <li>example document 1</li>
+                                                <li>example document 2</li>
+                                                <li>example document 3</li>
+                                            </ul>
+                                            <h5>Examples of proof of residency</h5>  
+                                            <ul>
+                                                <li>example document 1</li>
+                                                <li>example document 2</li>
+                                                <li>example document 3</li>
+                                            </ul>                                          
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="button" class="btn btn-previous">Back</button>
+                                        <button type="button" class="btn btn-next right">Next</button>
+                                    </div>
+                                </div>                                   
+                            </fieldset>
+
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-sm-12 msf-title">
+                                        <h3>Step 3: Patient Assistance Program</h3>                           
+                                    </div>                        
+                                    <div class="form-border"></div>
+                                </div>    
+                                <div class="row">
+                                    <div class="col-lg-6 step1">
+                                        <div class="step1-check">                                            
+                                            <h5>Please fill out all information</h5>
+                                            <div class="form-group row">
+                                                <label for="firstName" class="col-3 col-form-label">First name</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="firstName">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="lastName" class="col-3 col-form-label">Last name</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="lastName">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="email" class="col-3 col-form-label">Email</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="email" value="" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="phone" class="col-3 col-form-label">Telephone</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="tel" value="(888) - 888 - 8888" id="phone">
+                                                </div>
+                                            </div>
+                                            <hr>  
+                                            <div class="form-group row">
+                                                <label for="address1" class="col-3 col-form-label">Address 1</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="address1">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="address2" class="col-3 col-form-label">Address 2</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="address2">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="city" class="col-3 col-form-label">City</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="city">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="state" class="col-3 col-form-label">State</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="state">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="zipCode" class="col-3 col-form-label">Zip Code</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="zipCode">
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group row">
+                                                <label for="gender" class="col-3 col-form-label">Gender</label>
+                                                <div class="col-9">
+                                                    <select class="form-control" id="gender">
+                                                        <option selected>Choose</option>
+                                                        <option value="male">Male</option>
+                                                        <option value="female">Female</option>                                    
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="birthday" class="col-3 col-form-label">Birthday</label>
+                                                <div class="col-9">
+                                                    <input type="text" name="birthday" value="" id="birthday"/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="ssn" class="col-3 col-form-label">SSN</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="ssn">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 step1 step1-r">
+                                        <div class="left form-text-1">
+                                            <h5>Why do we ask?</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>   </p>
+                                            <p>If you need help, please contact us.</p>
+                                         
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="button" class="btn btn-previous">Back</button>
+                                        <button type="button" class="btn btn-next right">Next</button>
+                                    </div>
+                                </div>                                   
+                            </fieldset>
+
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-sm-12 msf-title">
+                                        <h3>Step 3: Patient Assistance Program</h3>                           
+                                    </div>                        
+                                    <div class="form-border"></div>
+                                </div>    
+                                <div class="row">
+                                    <div class="col-lg-6 step1">
+                                        <div class="step1-check">                                            
+                                            <h5>Please fill out alternate contact information</h5>
+                                            <div class="form-group row">
+                                                <label for="firstName" class="col-3 col-form-label">First name</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="firstName">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="lastName" class="col-3 col-form-label">Last name</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="lastName">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="phone" class="col-3 col-form-label">Telephone</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="tel" value="(888) - 888 - 8888" id="phone">
+                                                </div>
+                                            </div> 
+                                            <div class="form-group row">
+                                                <label for="relationship" class="col-3 col-form-label">Relationship</label>
+                                                <div class="col-9">
+                                                    <input class="form-control" type="text" value="" id="relationship">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 step1 step1-r">
+                                        <div class="left form-text-1">
+                                            <h5>Why do we ask?</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>   </p>
+                                            <p>If you need help, please contact us.</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="button" class="btn btn-previous">Back</button>
+                                        <button type="button" class="btn btn-next right">Next</button>
+                                    </div>
+                                </div>                                   
+                            </fieldset>
+                                
+                                <fieldset>
+                                    <h4>Place and Date of Birth <span class="step">(Step 2 / 7)</span></h4>
+                                    <div class="form-group">
+                                        <label for="birth-city">City:</label><br>
+                                        <input type="text" name="birth-city" class="birth-city form-control" id="birth-city">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="birth-state">State / Province:</label><br>
+                                        <input type="text" name="birth-state" class="birth-state form-control" id="birth-state">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="birth-country">Country:</label><br>
+                                        <input type="text" name="birth-country" class="birth-country form-control" id="birth-country">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="birth-date">Date (YYYY/MM/DD):</label><br>
+                                        <input type="text" name="birth-date" class="birth-date form-control" id="birth-date">
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                    <button type="button" class="btn btn-next">Next <i class="fa fa-angle-right"></i></button>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <h4>Address and Contact Information <span class="step">(Step 3 / 7)</span></h4>
+                                    <div class="form-group">
+                                        <label for="address">Address:</label><br>
+                                        <input type="text" name="address" class="address form-control" id="address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address-city">City:</label><br>
+                                        <input type="text" name="address-city" class="address-city form-control" id="address-city">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address-state">State / Province:</label><br>
+                                        <input type="text" name="address-state" class="address-state form-control" id="address-state">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address-country">Country:</label><br>
+                                        <input type="text" name="address-country" class="address-country form-control" id="address-country">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address-postal-code">Postal Code:</label><br>
+                                        <input type="text" name="address-postal-code" class="address-postal-code form-control" id="address-postal-code">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="telephone">Telephone:</label><br>
+                                        <input type="text" name="telephone" class="telephone form-control" id="telephone">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="mobile-phone">Mobile Phone:</label><br>
+                                        <input type="text" name="mobile-phone" class="mobile-phone form-control" id="mobile-phone">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email:</label><br>
+                                        <input type="text" name="email" class="email form-control" id="email">
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                    <button type="button" class="btn btn-next">Next <i class="fa fa-angle-right"></i></button>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <h4>Social Media Profiles <span class="step">(Step 4 / 7)</span></h4>
+                                    <div class="form-group">
+                                        <label for="social-facebook">Facebook:</label><br>
+                                        <input type="text" name="social-facebook" class="social-facebook form-control" id="social-facebook">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="social-twitter">Twitter:</label><br>
+                                        <input type="text" name="social-twitter" class="social-twitter form-control" id="social-twitter">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="social-google-plus">Google Plus:</label><br>
+                                        <input type="text" name="social-google-plus" class="social-google-plus form-control" id="social-google-plus">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="social-instagram">Instagram:</label><br>
+                                        <input type="text" name="social-instagram" class="social-instagram form-control" id="social-instagram">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="social-pinterest">Pinterest:</label><br>
+                                        <input type="text" name="social-pinterest" class="social-pinterest form-control" id="social-pinterest">
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                    <button type="button" class="btn btn-next">Next <i class="fa fa-angle-right"></i></button>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <h4>About You <span class="step">(Step 5 / 7)</span></h4>
+                                    <div class="form-group">
+                                        <label for="about-you">Tell us a bit about yourself:</label><br>
+                                        <textarea name="about-you" class="about-you form-control" id="about-you"></textarea>
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                    <button type="button" class="btn btn-next">Next <i class="fa fa-angle-right"></i></button>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <h4>Why You Want To Join <span class="step">(Step 6 / 7)</span></h4>
+                                    <div class="form-group">
+                                        <label for="why-join">Tell us why you want to join our application:</label><br>
+                                        <textarea name="why-join" class="why-join form-control" id="why-join"></textarea>
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                    <button type="button" class="btn btn-next">Next <i class="fa fa-angle-right"></i></button>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <h4>Other Form Elements <span class="step">(Step 7 / 7)</span></h4>
+                                    <div class="radio-buttons-1">
+                                        <p>Radio Buttons 1:</p>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-1"> Option 1
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-2"> Option 2
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-3"> Option 3
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-1-options" value="radio-buttons-1-option-4"> Option 4
+                                        </label>
+                                    </div>
+                                    <div class="radio-buttons-2">
+                                        <p>Radio Buttons 2:</p>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-1"> Option 1
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-2"> Option 2
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-3"> Option 3
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="radio-buttons-2-options" value="radio-buttons-2-option-4"> Option 4
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <div class="checkboxes-1">
+                                        <p>Checkboxes 1:</p>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-1"> Option 1
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-2"> Option 2
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-3"> Option 3
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-1-options" value="checkboxes-1-option-4"> Option 4
+                                        </label>
+                                    </div>
+                                    <div class="checkboxes-2">
+                                        <p>Checkboxes 2:</p>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-1"> Option 1
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-2"> Option 2
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-3"> Option 3
+                                        </label>
+                                        <label class="checkbox-inline">
+                                            <input type="checkbox" name="checkboxes-2-options" value="checkboxes-2-option-4"> Option 4
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <div class="selects-1">
+                                        <p>Select 1:</p>
+                                        <select class="form-control" name="select-1">
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                            <option value="4">Option 4</option>
+                                        </select>
+                                    </div>
+                                    <div class="selects-2">
+                                        <p>Select 2:</p>
+                                        <select class="form-control" name="select-2">
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                            <option value="4">Option 4</option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-previous"><i class="fa fa-angle-left"></i> Previous</button>
+                                    <button type="submit" class="btn">Submit</button>
+                                </fieldset>
+                                
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </section>
+
+
+            <footer>
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="navbar-nav footer-menu">
+                                <li class="nav-item footer-cont">&copy; 2017 Digital LinCS, LLC</li>
+                                <li class="nav-item"><a class="nav-link" href="">Contact Us</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="">Sign Up</a></li>                                    
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 footer-cont"><p><small>If this is an emergency, please call 911.</small> </p> </div>                            
+                    
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- </div class="wrapper"> -->        
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script> 
+    <script src="js/bootstrap-birthday.js"></script>           
+    <script src="js/scripts.js"></script>
+    
+    </body>
+</html>
