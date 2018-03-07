@@ -73,6 +73,8 @@ jQuery(document).ready(function() {
           }
         }
       });
-	
+      $('#message1').on('shown.bs.modal', function () {
+        $('#myInput').focus()
+      })
 	
 });
