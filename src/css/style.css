@@ -63,6 +63,9 @@ li.nav-item {
 .get-st a:hover{
     border-bottom: 3px solid #f55b2e;
 }
+li.get-st.nav-item.active a {
+    border-bottom: 3px solid #f55b2e;
+}
 .nav-link {
     padding: .8em 0 1em !important;
 }
@@ -487,6 +490,10 @@ span.custom-control-description {
     font-family: 'Lora', serif;
     font-size: 20px;
 }
+.custom-control-indicator {
+    top: .45rem;
+    left: -5px;
+}
 .step1 .custom-control {
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -555,6 +562,9 @@ i.fas.fa-upload {
     height: 500px;
     margin: auto;
 }
+.modal.mod-mess p {
+    font-size: 17px;
+}
 .modal-body {
     padding: 40px 20px 120px;
 }
@@ -570,7 +580,7 @@ i.fas.fa-upload {
     color: #ffffff;
     border-radius: 4px;
     background-color: #f55b2e;
-    padding: 10px 45px;
+    padding: 10px 20px;
     border: 1px solid #f55b2e;
 }
 .btn-enrll {
@@ -587,6 +597,32 @@ i.fas.fa-upload {
 }
 .modal-footer {
     display: block !important;
+}
+.mess-mod-head {
+    position: absolute;
+    padding: 27px 20px;
+}
+.mess-mod-head h4 {
+    color: #ffffff;
+}
+#message2 .modal-body {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.btn-cancel {
+    color: #f55b2e;
+    background-color: transparent;
+    font-weight: 600;
+}
+#message3 .btn-exit {
+    padding: 10px 40px;
+}
+#message5 .modal-body {
+    /* padding-top: 20px; */
+    padding-bottom: 45px;
+}
+.modal-img-5 {
+    height: 250px;
 }
 
 /* .msf-form form input[type="text"] { width: 340px; margin-left: 5px; margin-right: 5px; } */
@@ -731,5 +767,61 @@ i.fas.fa-upload {
     }
     .btn-previous {
         margin-left: 10px !important;
+    }
+    .log-in-box {
+        width: 97%;
+        height: 500px;
+        margin: 60px auto;
+        padding: 40px 15px;
+    }
+    .log-in-box label {
+        font-size: 16px;
+    }
+    .hero-button {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        border-radius: 4px;
+        background-color: #f55b2e;
+        padding: 25px 50px;
+    }
+    .get-started {
+        margin-top: 20px auto;
+        display: block;
+    }
+    .forg-pass {
+        padding: 30px 10px 20px;
+        display: block;
+        margin: auto;
+        float: none;
+        /* width: 100%; */
+        text-align: center;
+    }
+    .forg-pass a {;
+        float: none;
+    }
+}
+@media screen and (max-width: 650px) {
+    .modal.mod-mess {
+        width: 100%;
+        height: 500px;
+        margin: auto;
+    }
+    .btn-exit {
+        margin-right: 0 !important;
+    }
+    .btn-enrll {
+        margin-left: 0 !important;
+    }
+    .step1-check {
+        padding: 65px 26px;
+    }
+    .step1-check label {
+        font-size: 14px;
     }
 }
